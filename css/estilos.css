@@ -21,8 +21,8 @@ body{
     height: 245px;
     background-color: rgb(77, 72, 72);
     border-radius: 0.5rem;
-    margin-left: 60px;
-    margin-top: -160px;
+    margin-left: 10px;
+    margin-top: 10px;
     float: left;
 }
 .cuadroc{
@@ -39,5 +39,4 @@ body{
     height: 20px;
     border-radius: 0.5rem;
     margin-left: 7px;
-
 }
