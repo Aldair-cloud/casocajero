@@ -32,5 +32,14 @@ function ingresoretiro(){
 function ingresarretisoles(){
     if(document.getElementById('vistaretirar').style.display='none'){
         document.getElementById('vistasoles').style.display='block';
+        document.getElementById('retirosoles').style.display='none';
+        document.getElementById('veintesoles').style.display='block';
+    }
+}
+function veinteso(){
+    if(document.getElementById('vistasoles').style.display='none'){
+        document.getElementById('retiros').style.display='block';
+        document.getElementById('retirosoles').style.display='none';
+        document.getElementById('veintesoles').style.display='block';
     }
 }
