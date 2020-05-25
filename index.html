@@ -8,14 +8,15 @@
     <script src="https://kit.fontawesome.com/b5f1d4094e.js" crossorigin="anonymous"></script>
 </head>
 <body>
+
     <!------Cuadro grande -------->
+
     <section class="cuadrog">
         <table style="margin-top: 100px; float: left;">
             <tr>
                 <td>
                    <button class="arrow1" id="retiro" onclick="ingresoretiro()"><i class="fas fa-angle-double-right" style="font-size: 17px;"></i></button>
                    <button class="arrow1" id="retirosoles" onclick="ingresarretisoles()"><i class="fas fa-angle-double-right" style="font-size: 17px;"></i></button>
-                   <button class="arrow1" id="veintesoles" onclick="veinteso()"><i class="fas fa-angle-double-right" style="font-size: 17px;"></i></button> 
                 </td>
             </tr>
             <tr>
@@ -34,13 +35,18 @@
                 </td>
             </tr>
         </table>
+
         <!-----Cuadro Mediano ------>
+
         <section class="cuadromed" style="float: left;">
+
             <!------Cuadro Chico ----->
+
             <section class="cuadroc" style="float: left;" id="pantalla1">
                     <p style="text-align: center; font-size: 190%; margin-top: 10px">¡Bienvenido al Banco!</p>
                     <p style="font-size: 140%; margin-left: 20px; margin-top: 20px;">Por favor digite su clave</p>
                     <input type="password" class="texto" id="usuario" style="text-align: center;">
+                    <p id="mensaje" style="margin-left: 50px; "</p>
             </section>
 
             <!--------- PANTALLA 5 ---------->
@@ -159,7 +165,7 @@
             </tr>
             <tr>
                 <td>
-                    <button class="arrow2"><i class="fas fa-angle-double-left" style="font-size: 17px;"></i></button>
+                    <button class="arrow2" id="veintesoles" onclick="veinteso()"><i class="fas fa-angle-double-left" style="font-size: 17px;"></i></button>
                 </td>
             </tr>
             <tr>
@@ -172,56 +178,58 @@
         <table style="float: left;">
             <tr>
                 <td>
-                    <button class="botonnum"><b>1</b></button>
+                    <button class="botonnum" id="btn1">1</button>
                 </td>
                 <td>    
-                    <button class="botonnum"><b>2</b></button>
+                    <button class="botonnum" id="btn2">2</button>
                 </td>
                 <td>
-                    <button class="botonnum"><b>3</b></button>
+                    <button class="botonnum" id="btn3">3</button>
                 </td>
             </tr>
             <tr>
                 <td>
-                    <button class="botonnum"><b>4</b></button>
+                    <button class="botonnum" id="btn4">4</button>
                 </td>
                 <td>    
-                    <button class="botonnum"><b>5</b></button>
+                    <button class="botonnum" id="btn5">5</button>
                 </td>
                 <td>
-                    <button class="botonnum"><b>6</b></button>
+                    <button class="botonnum" id="btn6">6</button>
                 </td>
             </tr>
             <tr>
                 <td>
-                    <button class="botonnum"><b>7</b></button>
+                    <button class="botonnum" id="btn7">7</button>
                 </td>
                 <td>    
-                    <button class="botonnum"><b>8</b></button>
+                    <button class="botonnum" id="btn8">8</button>
                 </td>
                 <td>
-                    <button class="botonnum"><b>9</b></button>
+                    <button class="botonnum" id="btn9">9</button>
                 </td>
             </tr>
             <tr>
                 <td>
-                    <button class="botonnum"></button>
+                    <button class="botonnum" id="btn10"></button>
                 </td>
                 <td>    
-                    <button class="botonnum"><b>0</b></button>
+                    <button class="botonnum" id="btn11">0</button>
                 </td>
                 <td>
                     <body>
-                        <button class="botonnum"><b>.</b></button>
+                        <button class="botonnum" id="btn12">.</button>
                     </body>
                 </td>
             </tr>
         </table>
+
         <!---------Botones de acciones--------->
+
         <table style="float: left;">
             <tr>
                 <td>
-                    <button class="botonac" style="background-color: rgb(226, 51, 51);" onclick="cancel()"><b>CANCEL</b></button>
+                    <button class="botonac" style="background-color: rgb(226, 51, 51);" id="canelar" onclick="cancel()"><b>CANCEL</b></button>
                 </td>
             </tr>
             <tr>
