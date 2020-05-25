@@ -37,10 +37,20 @@ body{
     width: 380px;
     height: 225px;
     background-color: rgb(228, 228, 13);
-    display: none;
     border-radius: 0.5rem;
     margin-left: 10px;
     margin-top: 8.5px;
+    float: left;
+}
+.valor{
+    width: 70px;
+    height: 30px;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(228, 228, 13);
+    margin-left: -1px;
+    margin-top: 12px;
+    font-size: 150%;
     float: left;
 }
 .arrow2{
@@ -259,6 +269,51 @@ body{
     margin-left: 365px; 
     margin-top: -18px; 
     float: left; 
+    color: rgb(230, 19, 29); 
+    border: none; 
+    background-color: transparent; 
+    font-size: 40px;
+}
+.triangulo6-3{
+    margin-left: 365px; 
+    margin-top: 5px; 
+    float: left;
+    color: rgb(223, 183, 7); 
+    border: none; 
+    background-color: transparent; 
+    font-size: 40px;
+}
+.triangulo7-3{
+    margin-left: 365px; 
+    margin-top: -19px; 
+    float: left;
+    color: rgb(223, 183, 7); 
+    border: none; 
+    background-color: transparent; 
+    font-size: 40px;
+}
+.triangulo8-3{
+    margin-left: 365px; 
+    margin-top: -18px; 
+    float: left;
+    color: rgb(230, 19, 29); 
+    border: none; 
+    background-color: transparent; 
+    font-size: 40px;
+}
+.triangulo7-4{
+    margin-left: 365px; 
+    margin-top: 48px; 
+    float: left;
+    color: rgb(223, 183, 7); 
+    border: none; 
+    background-color: transparent; 
+    font-size: 40px;
+}
+.triangulo8-4{
+    margin-left: 366px; 
+    margin-top: -18px; 
+    float: left;
     color: rgb(230, 19, 29); 
     border: none; 
     background-color: transparent; 

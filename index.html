@@ -114,17 +114,36 @@
             <!------- PANTALLA 5 -------->
 
             <section class="cuadroc" style="float: left;" id="retiros" hidden>
-                <b>INGRESAR MONTO A RETIRTAR EN</b>
-                <b>MULTIPLOS DE 10</b>
-
+                <b style="margin-left: 40px; margin-top: 10px; font-size: 110%; float: left;">INGRESAR MONTO A RETIRTAR EN</b>
+                <b style="margin-left: 120px; margin-top: 5px; font-size: 110%; float: left;">MULTIPLOS DE 10</b>
+                <b style="margin-left: 180px; margin-top: 10px; font-size: 180%; float: left;">S/.</b>
+                <input type="text" class="valor">
+                <b class="triangulo6-3"><i class="fas fa-caret-left"></i></b>
+                <b style="margin-left: 250px; margin-top: -33px; float: left;">CONFIRMAR</b>
+                <b class="triangulo7-3"><i class="fas fa-caret-left"></i></b>
+                <b style="margin-left: 265px; margin-top: -35px; float: left;">CORREGIR</b>
+                <b class="triangulo8-3"><i class="fas fa-caret-left"></i></b>
+                <b style="margin-left: 260px; margin-top: -34px; float: left;">CANCELAR</b>
             </section>
 
             <!---------- PANTALLA 6 ---------->
 
-            <section>
-
+            <section class="cuadroc" style="float: left;" id="transaccion" hidden>
+                <b style="margin-left: 20px; margin-top: 10px; font-size: 150%; float: left;">TRANSACCION PROCESADA</b>
+                <b style="margin-left: 90px; margin-top: 7px; font-size: 100%; float: left;">¿DESEA REALIZAR OTRA</b>
+                <b style="margin-left: 130px; margin-top: 5px; font-size: 100%; float: left;">TRANSACCION?</b>
+                <b class="triangulo7-4"><i class="fas fa-caret-left"></i></b>
+                <b style="margin-left: 330px; margin-top: -38px; font-size: 130%; float: left;">SI</b>
+                <b class="triangulo8-4"><i class="fas fa-caret-left"></i></b>
+                <b style="margin-left: 325px; margin-top: -37px; font-size: 130%; float: left;">NO</b>
             </section>
             
+            <!---------- PANTALLA 7 ----------->
+
+            <section class="cuadroc" style="float: left; display: none;" id="adios">
+                <b style="margin-left: 130px; margin-top: 70px; font-size: 150%; float: left;">GRACIAS,</b>
+                <b style="margin-left: 100px; margin-top: 8px; font-size: 150%; float: left;">HASTA LUEGO.</b>
+            </section>
 
         </section>
         <table style="margin-top: 100px; float: left;">
@@ -135,7 +154,7 @@
             </tr>
             <tr>
                 <td>
-                    <button class="arrow2"><i class="fas fa-angle-double-left" style="font-size: 17px;"></i></button>
+                    <button class="arrow2" id="confirmar" onclick="procesada()"><i class="fas fa-angle-double-left" style="font-size: 17px;"></i></button>
                 </td>
             </tr>
             <tr>
@@ -145,7 +164,7 @@
             </tr>
             <tr>
                 <td>
-                    <button class="arrow2"><i class="fas fa-angle-double-left" style="font-size: 17px;"></i></button>
+                    <button class="arrow2" onclick="chau()"><i class="fas fa-angle-double-left" style="font-size: 17px;"></i></button>
                 </td>
             </tr>
         </table>
@@ -202,17 +221,17 @@
         <table style="float: left;">
             <tr>
                 <td>
-                    <button class="botonac" style="background-color: rgb(226, 51, 51);"><b>CANCEL</b></button>
+                    <button class="botonac" style="background-color: rgb(226, 51, 51);" onclick="cancel()"><b>CANCEL</b></button>
                 </td>
             </tr>
             <tr>
                 <td>
-                    <button class="botonac" style="background-color: rgb(218, 169, 8);"><b>CLEAR</b></button>
+                    <button class="botonac" style="background-color: rgb(218, 169, 8);" onclick="clear()"><b>CLEAR</b></button>
                 </td>
             </tr>
             <tr>
                 <td>
-                    <button class="botonac" style="background-color: rgb(12, 170, 12);" onclick="okay()"><b>OK</b></button>
+                    <button class="botonac" style="background-color: rgb(12, 170, 12);" onclick="ingresar()"><b>OK</b></button>
                 </td>
             </tr>
             <tr>

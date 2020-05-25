@@ -1,27 +1,25 @@
 var pass = ''
 var clave = '1234'
-
-function ingresar(opcion){
-    switch(opcion){
-        case 1:
-            if(pass.length==4){
-                if(pass == clave){
-                    document.getElementById('pantalla1').style.display='none';
-                    document.getElementById('vistamenuprincipal').style.display='block';
-                }
-            }
+var input = document.getElementById('usuario');
+function ingresar(){
+    if(input.value == clave){
+        document.getElementById('vistamenuprincipal').style.display='block';
+        document.getElementById('pantalla1').style.display='none';
     }
 }
 
 function recibirboton(){
 
 }
-function okay(){
-
-    if(document.getElementById('pantalla1').style.display='none'){
-        document.getElementById('vistamenuprincipal').style.display='block';
-    }
+function cancel(){
+    var elemento = document.getElementById("usuario");
+    elemento.value = "";
 }
+function clear(){
+    var elemento = document.getElementById("usuario");
+    elemento.value =  elemento.value.substring(0, elemento.value.length - 1);
+}
+
 function ingresoretiro(){
     if(document.getElementById('vistamenuprincipal').style.display='none'){
         document.getElementById('vistaretirar').style.display='block';
@@ -42,4 +40,14 @@ function veinteso(){
         document.getElementById('retirosoles').style.display='none';
         document.getElementById('veintesoles').style.display='block';
     }
+}
+function procesada(){
+    if(document.getElementById('retiros').style.display='none'){
+        document.getElementById('transaccion').style.display='block';
+    }
+}
+function chau(){
+    if(document.getElementById('transaccion').style.display='none'){
+        document.getElementById('adios').style.display='block';
+    }   
 }
