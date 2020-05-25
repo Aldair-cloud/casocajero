@@ -3,22 +3,26 @@ body{
     padding: 0px;
 }
 .cuadrog{
-    width: 500px;
-    height: 470px;
+    width: 520px;
+    height: 440px;
     background-color: gray;
-    border-radius: 2rem;
+    border-radius: 1rem;
     margin-left: 370px;
     margin-top: 10px;
 }
 .arrow1{
     width: 40px;
-    height: 20px;
+    height: 22px;
     border-radius: 0.3rem;
     margin-left: 12px;
+    margin-top: 3px;
     border-color: black;
 }
+#retirosoles{
+    display: none;
+}
 .cuadromed{
-    width: 380px;
+    width: 400px;
     height: 245px;
     background-color: rgb(77, 72, 72);
     border-radius: 0.5rem;
@@ -27,9 +31,10 @@ body{
     float: left;
 }
 .cuadroc{
-    width: 360px;
+    width: 380px;
     height: 225px;
     background-color: rgb(228, 228, 13);
+    display: none;
     border-radius: 0.5rem;
     margin-left: 10px;
     margin-top: 8.5px;
@@ -37,16 +42,267 @@ body{
 }
 .arrow2{
     width: 40px;
-    height: 20px;
+    height: 22px;
     border-radius: 0.3rem;
     margin-left: 3px;
+    margin-top: 3px;
     border-color: black;
 }
+.triangulo1{
+    margin-left: -88px; 
+    margin-top: 50px; 
+    float: left; color: rgb(223, 183, 7); 
+    border: none; 
+    background-color: transparent; 
+    font-size: 40px;
+}
+.triangulo2{
+    margin-left: -118px; 
+    margin-top: 78px; 
+    float: left; 
+    color: rgb(223, 183, 7); 
+    border: none; 
+    background-color: transparent; 
+    font-size: 40px;
+}
+.triangulo3{
+    margin-left: -140px; 
+    margin-top: 108px; 
+    float: left; 
+    color: rgb(223, 183, 7); 
+    border: none; 
+    background-color: transparent; 
+    font-size: 40px;
+}
+.triangulo4{
+    margin-left: -140px; 
+    margin-top: 136px; 
+    float: left; 
+    color: rgb(223, 183, 7); 
+    border: none; 
+    background-color: transparent; 
+    font-size: 40px;
+}
+.triangulo1-1{
+    margin-left: 0px; 
+    margin-top: 45px; 
+    float: left; color: rgb(223, 183, 7); 
+    border: none; 
+    background-color: transparent; 
+    font-size: 40px;
+}
+.triangulo2-1{
+    margin-left: -88px; 
+    margin-top: 74px; 
+    float: left; 
+    color: rgb(223, 183, 7); 
+    border: none; 
+    background-color: transparent; 
+    font-size: 40px;
+}
+.triangulo3-1{
+    margin-left: -88px; 
+    margin-top: 102px; 
+    float: left; 
+    color: rgb(223, 183, 7); 
+    border: none; 
+    background-color: transparent; 
+    font-size: 40px;
+}
+.triangulo4-1{
+    margin-left: -88px; 
+    margin-top: 130px; 
+    float: left; 
+    color: rgb(223, 183, 7); 
+    border: none; 
+    background-color: transparent; 
+    font-size: 40px;
+}
+.triangulo5{
+    margin-left: 5px; 
+    margin-top: 50px; 
+    float: left; 
+    color: rgb(223, 183, 7); 
+    border: none; 
+    background-color: transparent; 
+    font-size: 40px;
+}
+.triangulo6{
+    margin-left: -15px; 
+    margin-top: 80px; 
+    float: left; 
+    color: rgb(223, 183, 7); 
+    border: none; 
+    background-color: transparent; 
+    font-size: 40px;
+}
+.triangulo7{
+    margin-left: -15px; 
+    margin-top: 107px; 
+    float: left; 
+    color: rgb(223, 183, 7); 
+    border: none; 
+    background-color: transparent; 
+    font-size: 40px;
+}
+.triangulo8{
+    margin-left: 224px; 
+    margin-top: 40px; 
+    float: left; 
+    color: rgb(223, 183, 7); 
+    border: none; 
+    background-color: transparent; 
+    font-size: 40px;
+}
+.triangulo5-1{
+    margin-left: 12px; 
+    margin-top: 45px; 
+    float: left; 
+    color: rgb(223, 183, 7); 
+    border: none; 
+    background-color: transparent; 
+    font-size: 40px;
+}
+.triangulo6-1{
+    margin-left: 365px; 
+    margin-top: -18px; 
+    float: left;
+    color: rgb(223, 183, 7); 
+    border: none; 
+    background-color: transparent; 
+    font-size: 40px;
+}
+.triangulo7-1{
+    margin-left: 365px; 
+    margin-top: -18px; 
+    float: left; 
+    color: rgb(223, 183, 7); 
+    border: none; 
+    background-color: transparent; 
+    font-size: 40px;
+}
+.triangulo8-1{
+    margin-left: 365px; 
+    margin-top: -18px; 
+    float: left; 
+    color: rgb(230, 19, 29); 
+    border: none; 
+    background-color: transparent; 
+    font-size: 40px;
+}
 .botonnum{
-    width: 40px;
-    height: 30px;
+    width: 44px;
+    height: 34px;
     border-radius: 0.5rem;
     margin-left: 10px;
-    margin-top: 10px;
+    margin-top: 5px;
     border-color: black;
+    font-size: 20px;
+}
+.botonac{
+    width: 70px;
+    height: 34px;
+    border-radius: 0.5rem;
+    margin-top: 5px;
+    border-color: black;
+    color: white;
+}
+.card{
+    margin-left: 15px;
+    margin-top: 8px; 
+    float: left;
+    color: white;
+    /*fuentes investigar*/
+}
+.receipt{
+    margin-left: 79px;
+    margin-top: 8px;
+    float: left;
+    color: white;
+    /*fuentes investigar*/
+}
+.entradacard1{
+    width: 115px;
+    height: 22px;
+    background-color: rgb(88, 68, 68);
+    margin-left: 10px;
+    margin-top: 2px;
+    border-radius: 0.2rem;
+}
+.entradacard2{
+    width: 100px;
+    height: 8px;
+    background-color: black;
+    margin-left: 7.5px;
+    margin-top: 7px;
+}
+.receipt1{
+    width: 130px;
+    height: 22px;
+    background-color: rgb(88, 68, 68);
+    margin-left: 130px;
+    margin-top: -22px;
+    border-radius: 0.2rem;
+}
+.receipt2{
+    width: 115px;
+    height: 8px;
+    background-color: black;
+    margin-left: 7px;
+    margin-top: 7px;
+}
+.cash{
+    margin-left: 15px;
+    margin-top: 15px;
+    float: left;
+    color: white;
+}
+.cash1{
+    width: 250px;
+    height: 30px;
+    background-color: rgb(88, 68, 68);
+    margin-left: 10px;
+    margin-top: 2px;
+    border-radius: 0.2rem;
+}
+.cash2{
+    width: 230px;
+    height: 7px;
+    background-color: black;
+    margin-left: 10px;
+    margin-top: 11px;
+}
+.deposit{
+    margin-left: 15px;
+    margin-top: 15px;
+    float: left;
+    color: white;
+}
+.deposit1{
+    width: 250px;
+    height: 30px;
+    background-color: rgb(88, 68, 68);
+    margin-left: 10px;
+    margin-top: 2px;
+    border-radius: 0.2rem;
+}
+.deposit2{
+    width: 230px;
+    height: 7px;
+    background-color: black;
+    margin-left: 10px;
+    margin-top: 11px;
+}
+.caja{
+    width: 300px;
+    height: 20px;
+    background-color: black;
+}
+.texto{
+    width: 300px;
+    height: 20px;
+    margin-left: 10px;
+    margin-top: -10px;
+    font-size: 30px;
+    border-color: yellow;
 }

@@ -3,82 +3,143 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cajero del Profesor Reina</title>
+    <title>Cajero</title>
     <link rel="stylesheet" href="css/estilos.css">
+    <script src="https://kit.fontawesome.com/b5f1d4094e.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div class="cuadrog"><br>
-        <table style="margin-top: 140px; float: left;">
+    <!------Cuadro grande -------->
+    <section class="cuadrog">
+        <table style="margin-top: 100px; float: left;">
             <tr>
                 <td>
-                   <button class="arrow1"></button> 
+                   <button class="arrow1" id="retiro" onclick="ingresoretiro()"><i class="fas fa-angle-double-right" style="font-size: 17px;"></i></button>
+                   <button class="arrow1" id="retirosoles" onclick="ingresarretisoles()"><i class="fas fa-angle-double-right" style="font-size: 17px;"></i></button> 
                 </td>
             </tr>
             <tr>
                 <td>
-                    <button class="arrow1"></button>
+                    <button class="arrow1"><i class="fas fa-angle-double-right" style="font-size: 17px;"></i></button>
                 </td>
             </tr>
             <tr>
                 <td>
-                    <button class="arrow1"></button>
+                    <button class="arrow1"><i class="fas fa-angle-double-right" style="font-size: 17px;"></i></button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button class="arrow1"><i class="fas fa-angle-double-right" style="font-size: 17px;"></i></button>
                 </td>
             </tr>
         </table>
-        <div class="cuadromed" style="float: left;">
-            <div class="cuadroc" style="float: left;">
+        <!-----Cuadro Mediano ------>
+        <section class="cuadromed" style="float: left;">
+            <!------Cuadro Chico ----->
+            <section class="cuadroc" style="float: left;" id="pantalla1">
+                    <p style="text-align: center; font-size: 190%; margin-top: 10px">¡Bienvenido al Banco!</p>
+                    <p style="font-size: 140%; margin-left: 20px; margin-top: 20px;">Por favor digite su clave</p>
+                    <input type="password" class="texto" id="usuario" style="text-align: center;">
+            </section>
+            <section class="cuadroc" style="float: left;" id="vistamenuprincipal" hidden>
+                <!-- <div class="principal" id="menuprincipal"> -->
+                    <b style="margin-left: 90px; font-size: 150%;">MENU PRINCIPAL</b><br>
+                    <b style="margin-left: 25px; margin-top: 63px; float: left;">RETIRO</b>
+                    <b class="triangulo1"><i class="fas fa-caret-right"></i></b>
+                    <b style="margin-left: -65px; margin-top: 90px; float: left;">CONSULTAS</b>
+                    <b class="triangulo2"><i class="fas fa-caret-right"></i></b>
+                    <b style="margin-left: -95px; margin-top: 120px; float: left;">OPERACIONES</b>
+                    <b class="triangulo3"><i class="fas fa-caret-right"></i></b>
+                    <b class="triangulo4"><i class="fas fa-caret-right"></i></b> 
+                    
+                    <b style="margin-left: 81.5px; margin-top: 63px; float: left;">TRANSFERENCIA</b>
+                    <b class="triangulo5"><i class="fas fa-caret-left"></i></b>
+                    <b class="triangulo6"><i class="fas fa-caret-left"></i></b>
+                    <b class="triangulo7"><i class="fas fa-caret-left"></i></b>
+                    <b class="triangulo8"><i class="fas fa-caret-left"></i></b>
+                    <b style="margin-left: 260px; margin-top: -40px; float: left;">ULTIMOS</b>
+                    <b style="margin-left: 230px; margin-top: -20px; float: left;">MOVIMIENTOS</b>
+                <!-- </div> -->
+            </section>
+            <section class="cuadroc" style="float: left;" id="vistaretirar" hidden>
+                <b style="margin-left: 140px; font-size: 170%;">RETIRO</b><br>
+                <b class="triangulo1-1"><i class="fas fa-caret-right"></i></b>
+                <b style="margin-left: 10px; margin-top: 55px; float: left;">RETIRO</b>
+                <b class="triangulo2-1"><i class="fas fa-caret-right"></i></b>
+                <b style="margin-left: -60px; margin-top: 72px; float: left;">SOLES</b>
+                <b class="triangulo3-1"><i class="fas fa-caret-right"></i></b>
+                <b class="triangulo4-1"><i class="fas fa-caret-right"></i></b>
+                
+                
+                <b style="margin-left: 190px; margin-top: 55px; float: left;">RETIRAR</b>
+                <b class="triangulo5-1"><i class="fas fa-caret-left"></i></b>
+                <b style="margin-left: 275px; margin-top: -20px; float: left;">DOLARES</b>
+                <b class="triangulo6-1"><i class="fas fa-caret-left"></i></b>
+                
+                <b class="triangulo7-1"><i class="fas fa-caret-left"></i></b>
+                <b class="triangulo8-1"><i class="fas fa-caret-left"></i></b>
+                <b style="margin-left: 265px; margin-top: -33px; float: left;">CANCELAR</b>
+            </section>
+            <section class="cuadroc" style="float: left;" id="vistasoles" hidden>
+                <b style="margin-left: 140px; font-size: 170%;">RETIRO</b><br>
 
-            </div>
-        </div>
-        <table style="margin-top: 140px;">
+            </section>
+        </section>
+        <table style="margin-top: 100px; float: left;">
             <tr>
                 <td>
-                    <button class="arrow2"></button>
+                    <button class="arrow2"><i class="fas fa-angle-double-left" style="font-size: 17px;"></i></button>
                 </td>
             </tr>
             <tr>
                 <td>
-                    <button class="arrow2"></button>
+                    <button class="arrow2"><i class="fas fa-angle-double-left" style="font-size: 17px;"></i></button>
                 </td>
             </tr>
             <tr>
                 <td>
-                    <button class="arrow2"></button>
+                    <button class="arrow2"><i class="fas fa-angle-double-left" style="font-size: 17px;"></i></button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button class="arrow2"><i class="fas fa-angle-double-left" style="font-size: 17px;"></i></button>
                 </td>
             </tr>
         </table>
-        <table>
+        <!------- Tabla de numeros ------->
+        <table style="float: left;">
             <tr>
                 <td>
-                    <button class="botonnum">1</button>
+                    <button class="botonnum"><b>1</b></button>
                 </td>
                 <td>    
-                    <button class="botonnum">2</button>
+                    <button class="botonnum"><b>2</b></button>
                 </td>
                 <td>
-                    <button class="botonnum">3</button>
+                    <button class="botonnum"><b>3</b></button>
                 </td>
             </tr>
             <tr>
                 <td>
-                    <button class="botonnum">4</button>
+                    <button class="botonnum"><b>4</b></button>
                 </td>
                 <td>    
-                    <button class="botonnum">5</button>
+                    <button class="botonnum"><b>5</b></button>
                 </td>
                 <td>
-                    <button class="botonnum">6</button>
+                    <button class="botonnum"><b>6</b></button>
                 </td>
             </tr>
             <tr>
                 <td>
-                    <button class="botonnum">7</button>
+                    <button class="botonnum"><b>7</b></button>
                 </td>
                 <td>    
-                    <button class="botonnum">8</button>
+                    <button class="botonnum"><b>8</b></button>
                 </td>
                 <td>
-                    <button class="botonnum">9</button>
+                    <button class="botonnum"><b>9</b></button>
                 </td>
             </tr>
             <tr>
@@ -86,16 +147,63 @@
                     <button class="botonnum"></button>
                 </td>
                 <td>    
-                    <button class="botonnum">0</button>
+                    <button class="botonnum"><b>0</b></button>
                 </td>
                 <td>
                     <body>
-                        <button class="botonnum">.</button>
+                        <button class="botonnum"><b>.</b></button>
                     </body>
                 </td>
             </tr>
         </table>
-    </div>
+        <!---------Botones de acciones--------->
+        <table style="float: left;">
+            <tr>
+                <td>
+                    <button class="botonac" style="background-color: rgb(226, 51, 51);"><b>CANCEL</b></button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button class="botonac" style="background-color: rgb(218, 169, 8);"><b>CLEAR</b></button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button class="botonac" style="background-color: rgb(12, 170, 12);" onclick="okay()"><b>OK</b></button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button class="botonac"></button>
+                </td>
+            </tr>
+        </table>
+        <div class="card">
+            <b>CARD</b>
+        </div>
+        <div class="receipt">
+            <b>RECEIPT</b>
+        </div>
+        <div class="entradacard1" style="float: left;">
+            <div class="entradacard2" style="float: left;"></div>
+        </div>
+        <div class="receipt1" style="float: left;">
+            <div class="receipt2" style="float: left;"></div>
+        </div>
+        <div class="cash">
+            <b>CASH</b>
+        </div>
+        <div class="cash1" style="float: left;">
+            <div class="cash2" style="float: left;"></div>
+        </div>
+        <div class="deposit">
+            <b>DEPOSIT</b>
+        </div>
+        <div class="deposit1" style="float: left;">
+            <div class="deposit2" style="float: left;"></div>
+        </div>
+    </section>
     <script src="js/script.js"></script>
 </body>
 </html>
