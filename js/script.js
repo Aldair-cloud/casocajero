@@ -80,14 +80,14 @@ function btn11(){
     var value = num.value;
     num.value = value + resultado;
 }
-function cancel(){
+/*function cancel(){
     var elemento = document.getElementById("cancelar").innerHTML;
     elemento.value = "";
 }
 function clear(){
     var elemento = document.getElementById("usuario");
     elemento.value =  elemento.value.substring(0, elemento.value.length - 1);
-}
+}*/
 
 function ingresoretiro(){
     if(document.getElementById('vistamenuprincipal').style.display='none'){
