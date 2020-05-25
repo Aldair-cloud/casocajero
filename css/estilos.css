@@ -118,6 +118,41 @@ body{
     background-color: transparent; 
     font-size: 40px;
 }
+.triangulo1-2{
+    margin-left: 0px; 
+    margin-top: 45px; 
+    float: left; color: rgb(223, 183, 7); 
+    border: none; 
+    background-color: transparent; 
+    font-size: 40px;
+}
+.triangulo2-2{
+    margin-left: -58px; 
+    margin-top: 74px; 
+    float: left; 
+    color: rgb(223, 183, 7); 
+    border: none; 
+    background-color: transparent; 
+    font-size: 40px;
+}
+.triangulo3-2{
+    margin-left: -64px; 
+    margin-top: 102px; 
+    float: left; 
+    color: rgb(223, 183, 7); 
+    border: none; 
+    background-color: transparent; 
+    font-size: 40px;
+}
+.triangulo4-2{
+    margin-left: -64px; 
+    margin-top: 130px; 
+    float: left; 
+    color: rgb(223, 183, 7); 
+    border: none; 
+    background-color: transparent; 
+    font-size: 40px;
+}
 .triangulo5{
     margin-left: 5px; 
     margin-top: 50px; 
@@ -182,6 +217,42 @@ body{
     font-size: 40px;
 }
 .triangulo8-1{
+    margin-left: 365px; 
+    margin-top: -18px; 
+    float: left; 
+    color: rgb(230, 19, 29); 
+    border: none; 
+    background-color: transparent; 
+    font-size: 40px;
+}
+.triangulo5-2{
+    margin-left: 300px; 
+    margin-top: 45px; 
+    float: left; 
+    color: rgb(223, 183, 7); 
+    border: none; 
+    background-color: transparent; 
+    font-size: 40px;
+}
+.triangulo6-2{
+    margin-left: 365px; 
+    margin-top: -32px; 
+    float: left;
+    color: rgb(223, 183, 7); 
+    border: none; 
+    background-color: transparent; 
+    font-size: 40px;
+}
+.triangulo7-2{
+    margin-left: 365px; 
+    margin-top: -18px; 
+    float: left; 
+    color: rgb(223, 183, 7); 
+    border: none; 
+    background-color: transparent; 
+    font-size: 40px;
+}
+.triangulo8-2{
     margin-left: 365px; 
     margin-top: -18px; 
     float: left; 
